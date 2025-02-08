@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Kh Ang ToaThmor;
+  font-size: 16px;
+}
+.background {
+  width: 100%;
+  height: 610px;
+  background: linear-gradient(45deg, #f8d3fec4, #a8fcffc4, #eefeffc4);
+  padding: 80px;
+  margin-top: -10px;
+}
+.container {
+  width: 100%;
+  height: 540px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: -30px;
+}
+.nav_bar {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 30px;
+}
+.logo {
+  width: 35%;
+}
+.logo span {
+  color: red;
+  font-size: 25px;
+}
+.search {
+  width: 35%;
+}
+.search input {
+  width: 300px;
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  padding: 8px;
+  border: none;
+  border-radius: 40px;
+}
+.fa-solid {
+  background-color: rgb(233, 231, 231);
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: rgb(84, 84, 84);
+  cursor: pointer;
+}
+.icon_navbar {
+  width: 35%;
+  padding: 10px;
+}
+.containerone {
+  width: 100%;
+  height: 78%;
+}
+.boxone {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.cardone {
+  width: 80%;
+  height: 400px;
+  border-radius: 20px;
+}
+.textone {
+  width: 20%;
+  height: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: justify;
+  margin-top: -50px;
+}
+.textone h1 {
+  font-size: 29px;
+  font-family: Kh Ang ToaThmor;
+}
+ul.categories li {
+  margin-bottom: 2px;
+  list-style: none;
+}
+.categories a {
+  text-decoration: none;
+  color: black;
+  font-family: Kh Ang ToaThmor;
+}
+.categories a:hover {
+  text-decoration: none;
+  color: rgb(10, 151, 186);
+  font-family: Kh Ang ToaThmor;
+}
+.boxcard {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+}
+.cardleft {
+  width: 60%;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #f5b6ffeb, #e6ffffc4, #a6f9ff);
+  display: flex;
+}
+.imgesleft {
+  width: 40%;
+  height: 200px;
+}
+.imgesleft img {
+  width: 72%;
+  margin-top: -20px;
+}
+.txtleft {
+  width: 60%;
+  height: 200px;
+  padding: 40px;
+}
+#bigsale {
+  color: #6c7071;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#write {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(119, 120, 120);
+}
+.btnheadphone {
+  font-size: 18px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #eb92f9eb, #56ffffc4);
+  border-radius: 20px;
+  padding: 8px;
+  width: 150px;
+  box-shadow: 2px 5px 10px rgb(209, 209, 209);
+}
+.btnheadphone:hover {
+  transition: all 0.99s;
+  cursor: pointer;
+  background: linear-gradient(45deg, #56ffffc4, #eb92f9eb);
+}
+.cardright {
+  width: 40%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.cardup {
+  width: 90%;
+  height: 90px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ffe6fac4, #cdf0ffeb);
+}
+#textup {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px 10px 10px;
+  padding: 5px;
+  margin-top: -3px;
+}
+.cardtop {
+  width: 90%;
+  height: 90px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #cbebffc4, hsla(198, 100%, 93%, 0.922));
+  margin-top: 20px;
+  padding: 3px;
+  display: flex;
+  box-shadow: 2px 2px 13px rgb(211, 209, 209);
+}
+
+#sony {
+  margin: 15px;
+  color: #232323;
+  font-size: 15px;
+  font-family: Kh Ang ToaThmor;
+  font-weight: bold;
+  margin-bottom: -18px;
+}
+.btnshopnow {
+  font-size: 15px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #eb92f9eb, #56ffffc4);
+  border-radius: 20px;
+  padding: 7px;
+  width: 120px;
+  box-shadow: 2px 5px 10px rgb(209, 209, 209);
+}
+.btnshopnow:hover {
+  transition: all 0.99s;
+  cursor: pointer;
+  background: linear-gradient(45deg, #56ffffc4, #eb92f9eb);
+}
+.cardtop img {
+  width: 20%;
+  height: 100%;
+  justify-items: right;
+}
+.containertwo {
+  display: flex;
+  gap: 25px;
+}
+.nameproducttwo {
+  padding: 8px;
+  font-family: Kh Ang ToaThmor;
+}
+.nameproducttwo span {
+  justify-content: right;
+  text-align: right;
+  color: red;
+  cursor: pointer;
+}
+.nameproducttwo span:hover {
+  color: #6c7071;
+}
+.boxtow {
+  width: 22%;
+  height: 168px;
+  background-color: #ddf8ff;
+  border-radius: 20px;
+}
+.cardtwo {
+  width: 100%;
+  height: 65%;
+}
+.imgestwo img {
+  margin: 50px;
+  margin-top: 10px;
+  width: 40%;
+  align-items: center;
+}
+.txttwo {
+  width: 100%;
+  height: 35%;
+  text-align: center;
+  margin-top: -10px;
+}
